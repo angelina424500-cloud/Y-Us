@@ -1,71 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Transparent Retail Platform</title>
-
-<style>
-body {
-  font-family: Arial;
-  margin: 0;
-  background: #f5f5f5;
-  text-align: center;
-}
-header {
-  background: #2c7be5;
-  color: white;
-  padding: 40px 20px;
-}
-section {
-  padding: 30px;
-}
-.btn {
-  background: #28a745;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.card {
-  background: white;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 10px;
-}
-footer {
-  background: #333;
-  color: white;
-  padding: 15px;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Y-Us | Transparent Shopping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; margin: 0; text-align: center; }
+    header { background: #2c7be5; color: white; padding: 40px; }
+    section { padding: 30px; }
+    .btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; }
+    footer { background: #f1f1f1; padding: 20px; }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Transparent & Verified Retail Platform</h1>
+  <h1>Y-Us</h1>
   <p>Shop with Trust, Not Guesswork</p>
   <a href="#" class="btn">Join Now</a>
 </header>
 
 <section>
   <h2>Problem</h2>
-  <p>Fake reviews, unclear sourcing, and low-quality products make shopping difficult.</p>
+  <p>Fake reviews, unclear sourcing, and poor product quality make online shopping risky.</p>
 </section>
 
 <section>
   <h2>Our Solution</h2>
-  <div class="card">✔ Verified Reviews</div>
-  <div class="card">✔ Product Sourcing Transparency</div>
-  <div class="card">✔ Authentic Sellers</div>
+  <p>We provide verified reviews, transparent sourcing, and authentic products.</p>
 </section>
 
 <section>
-  <h2>Why Choose Us?</h2>
-  <p>✔ Shop confidently<br>
-     ✔ Save time<br>
-     ✔ Support ethical products</p>
+  <h2>Features</h2>
+  <p>✔ Verified Sellers<br>✔ Transparent Pricing<br>✔ Ethical Products</p>
+</section>
+
+<section>
+  <h2>Why Y-Us?</h2>
+  <p>Shop confidently. Save time. Make better decisions.</p>
 </section>
 
 <section>
