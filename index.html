@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Y-Us | Transparent Shopping</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { font-family: Arial; margin: 0; text-align: center; }
-    header { background: #2c7be5; color: white; padding: 40px; }
-    section { padding: 30px; }
-    .btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; }
-    footer { background: #f1f1f1; padding: 20px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y-Us | Transparent Shopping</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9fbfd;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #2c7be5, #00c6ff);
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card i {
+  font-size: 30px;
+  color: #2c7be5;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #2c7be5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
 </head>
 
 <body>
@@ -18,36 +91,58 @@
 <header>
   <h1>Y-Us</h1>
   <p>Shop with Trust, Not Guesswork</p>
-  <a href="#" class="btn">Join Now</a>
+  <a href="#" class="btn">Get Early Access</a>
 </header>
 
 <section>
-  <h2>Problem</h2>
-  <p>Fake reviews, unclear sourcing, and poor product quality make online shopping risky.</p>
+  <h2>🚨 The Problem</h2>
+  <p>Fake reviews, unclear sourcing, and inconsistent product quality make online shopping confusing and risky.</p>
 </section>
 
 <section>
-  <h2>Our Solution</h2>
-  <p>We provide verified reviews, transparent sourcing, and authentic products.</p>
+  <h2>💡 Our Solution</h2>
+  <p>Y-Us ensures transparency through verified reviews, clear sourcing details, and authentic sellers.</p>
 </section>
 
 <section>
-  <h2>Features</h2>
-  <p>✔ Verified Sellers<br>✔ Transparent Pricing<br>✔ Ethical Products</p>
+  <h2>✨ Key Features</h2>
+  <div class="features">
+    <div class="card">
+      <i class="fas fa-check-circle"></i>
+      <h3>Verified Sellers</h3>
+      <p>Only trusted and authenticated sellers.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Transparent Sourcing</h3>
+      <p>Know exactly where your product comes from.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-leaf"></i>
+      <h3>Sustainable Products</h3>
+      <p>Shop eco-friendly and ethical options.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-star"></i>
+      <h3>Real Reviews</h3>
+      <p>Genuine feedback from real users.</p>
+    </div>
+  </div>
 </section>
 
 <section>
-  <h2>Why Y-Us?</h2>
-  <p>Shop confidently. Save time. Make better decisions.</p>
+  <h2>🎯 Why Choose Y-Us?</h2>
+  <p>Shop confidently, save time, and make better decisions with complete transparency.</p>
 </section>
 
 <section>
-  <h2>Get Started</h2>
-  <a href="#" class="btn">Sign Up</a>
+  <h2>🚀 Get Started</h2>
+  <a href="#" class="btn">Join Now</a>
 </section>
 
 <footer>
-  <p>Contact: yourname@gmail.com</p>
+  <p>📧 support@yus.com</p>
+  <p>© 2026 Y-Us. All rights reserved.</p>
 </footer>
 
 </body>
